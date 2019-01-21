@@ -27,10 +27,13 @@
 
 * Manger: node bamazonManager.js
  * When the app is run, there are four options for the user to choose from: View Products for Sale, View Low Inventory, Add to Inventory, Add New Product.
+ ![ScreenShot](/screenshots/6.png)
   * View Products for Sale: This shows the user a table of the current products and their details.
-  
+  ![ScreenShot](/screenshots/7.png)
   * View Low Inventory: This shows the user the current products with an inventory level below five.
-  
+  ![ScreenShot](/screenshots/8.png)
   * Add to Inventory: This allows the user to add inventory of a specific item. This is then updated in the MySQL database.
-  
+  ![ScreenShot](/screenshots/9.png)
   * Add New Product: The user will enter in data regarding the new item, this item is then added to the MySQL database and is available for the customer to purchase. 
+  ![ScreenShot](/screenshots/10.png)
+  ![ScreenShot](/screenshots/11.png)
