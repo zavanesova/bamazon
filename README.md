@@ -25,7 +25,7 @@
   * The MySQL database is then updated to reflect the new quantity on hand. 
   ![ScreenShot](/screenshots/5.png)
 
-* Manger: node bamazonManager.js
+* Manager: node bamazonManager.js
  * When the app is run, there are four options for the user to choose from: View Products for Sale, View Low Inventory, Add to Inventory, Add New Product.
  ![ScreenShot](/screenshots/6.png)
   * View Products for Sale: This shows the user a table of the current products and their details.
