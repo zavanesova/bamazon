@@ -18,6 +18,7 @@ connection.connect(function(err) {
 
 function afterConnection() {
     connection.query("SELECT * FROM products", function(err, res) {
+        if(err) throw err;
         var t = new Table;
         res.forEach(function(product) {
             t.cell("Item ID", product.item_id);
@@ -28,8 +29,6 @@ function afterConnection() {
         });
         var newT = t.toString().toLowerCase().split(' ').map((s) => s.charAt(0).toUpperCase() + s.substring(1)).join(' ');
         console.log(newT);
-        if(err) throw err;
-        // console.log(res);
         buyItems(res);
     })
 }
