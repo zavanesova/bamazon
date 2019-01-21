@@ -38,3 +38,16 @@ VALUES ("toothbrush", "beauty", 5, 10);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity) 
 VALUES ("socks", "clothing", 7, 8);
+
+---Challenge #3
+USE bamazonDb;
+
+ALTER TABLE products ADD [COLUMN] product_sales [AFTER stock_quantity];
+
+CREATE TABLE departments(
+    department_id INT NOT NULL AUTO_INCREMENT,
+    department_name VARCHAR(100) NOT NULL,
+    over_head_costs INT(100),
+    product_sales INT(100),
+    total_profit INT(100)
+)
